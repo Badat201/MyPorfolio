@@ -1,0 +1,62 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
+background:#222;
+color:rgb(86, 150, 164);
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav a{
+color:rgb(42, 65, 7);
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(to right,#007BFF,#00c6ff);
+color:white;
+}
+
+button{
+padding:12px 20px;
+margin-top:20px;
+border:none;
+background:#222;
+color:rgb(40, 159, 138);
+cursor:pointer;
+}
+
+section{
+padding:50px;
+text-align:center;
+}
+
+.project-card{
+background:rgb(28, 139, 87);
+padding:20px;
+margin:20px auto;
+width:300px;
+box-shadow:0 0 10px gray;
+border-radius:10px;
+}
